@@ -9,15 +9,12 @@ public class Main {
                 new CPU("AMD ", 175.25d),
                 500d);
 
-       // Computer computer01 = new Computer("Ryzen5", 1200.50d);
-
         Computer computer0 = new Computer("AMD",
                 new Motherboard("ASUS Prime H510M-K", "mATX", 300.25d),
                 new HDD("WD Blue 2TB WD20EZBX", 2000, "internal", 85.3d),
                 new RAM("Kingston FURY Beast 2x8GB", 16, 95.7d),
                 new CPU("AMD Ryzen 5 5600X", 175.25d), 250.0d);
                 //new CPU("AMD Ryzen 5 5600X", 175.25d));
-
 
        Computer comp1 = new Computer("Intel-100500",
                 new Motherboard("ASRock B660M Pro RSá", "mATX", 300.33d),
@@ -55,6 +52,10 @@ public class Main {
         double test1 = comp1.getCostComputer();
         String formattedDouble1 = new DecimalFormat("#0.00").format(test1);
         System.out.println(formattedDouble1);
+
+        System.out.println("*******************");
+        computer0.getinfoMotherboard1();
+        computer0.motherboard.getinfoMotherboard();
 
     }
 }
