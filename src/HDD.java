@@ -1,11 +1,19 @@
 public class HDD {
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
     String model;
     int capacityofHdd;
     String type;
     double cost;
 
-    public HDD(){
-
+    public HDD(String model){
+        this.model = model;
     }
 
     public HDD(String model, int capacityofHdd, String type, double cost){
@@ -14,6 +22,8 @@ public class HDD {
         this.type = type;
         this.cost = cost;
     }
+
+
 
     public void getInfoHdd(){
         System.out.println("HDD options: ");

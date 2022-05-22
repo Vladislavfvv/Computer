@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 
 public class Main {
     public static void main(String[] args) {
-        Computer computer0 = new Computer("AMD", 500d);
+        Computer computer0 = new Computer("AMD", 500d, new HDD("NewBarracuda"));
 
         Computer comp1 = new Computer("Intel-100500",
                 new Motherboard("ASRock B660M Pro RSá", "mATX", 300.33d),

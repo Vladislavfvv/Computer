@@ -8,10 +8,18 @@ public class Computer {
     Motherboard motherboard;
 
 
-    public Computer(String modelComp, double costComp) {
+    public Computer(String modelComp, double costComp, HDD hdd) {
         this.model = modelComp;
         this.costComp = costComp;
+        Motherboard motherboard1 = new Motherboard();
+        HDD hdd1 = new HDD(this.model);
+        RAM ram1 = new RAM();
+        CPU cpu1 = new CPU();
     }
+    public void setModelHDD(HDD hdd){
+        this.hdd = hdd;
+    }
+
 
 
     public Computer(String modelComp, Motherboard motherboard, HDD hdd, RAM ram, CPU cpu) {
@@ -29,7 +37,7 @@ public class Computer {
         //System.out.println("Параметры:");
         //System.out.println("Motherboard :" + this.motherboard.model);
         // System.out.println("CPU: " + this.cpu.model);
-        //System.out.println("HDD" + this.hdd.model + " \n type: " + this.hdd.type);
+        if(this.hdd != null )System.out.println("HDD " + this.hdd.model /*+ " \n type: " + this.hdd.type*/);
         //System.out.println("RAM: " + this.ram.model);
     }
 
