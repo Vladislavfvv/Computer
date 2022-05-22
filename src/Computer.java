@@ -44,10 +44,11 @@ public class Computer {
         System.out.println("Компьютер: " + this.model);
         System.out.println("Стоимость: " + this.costComp);
         //System.out.println("Параметры:");
-        //System.out.println("Motherboard :" + this.motherboard.model);
-        // System.out.println("CPU: " + this.cpu.model);
+        if(this.motherboard != null )System.out.println("Motherboard :" + this.motherboard.model);
+        if(this.cpu != null )System.out.println("CPU: " + this.cpu.model);
         if(this.hdd != null )System.out.println("HDD " + this.hdd.model /*+ " \n type: " + this.hdd.type*/);
-        //System.out.println("RAM: " + this.ram.model);
+        if(this.ram != null )System.out.println("RAM: " + this.ram.model);
+
     }
 
 
