@@ -11,6 +11,11 @@ public class RAM {
         this.amountOfRam = amountOfRam;
         this.cost = cost;
     }
+
+    public RAM(String s) {
+        this.model = s;
+    }
+
     public void getInfoRam(){
         System.out.println("Options RAM:");
         System.out.println("Model: " + this.model);

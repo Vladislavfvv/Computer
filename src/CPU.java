@@ -11,6 +11,10 @@ public class CPU {
         this.cost = c;
     }
 
+    public CPU(String s) {
+        this.model = s;
+    }
+
     public void getInfoCPU(){
         System.out.println("Options CPU: ");
         System.out.println("Model: " + this.model);

@@ -8,7 +8,16 @@ public class Computer {
     Motherboard motherboard;
 
 
-    public Computer(String modelComp, double costComp, HDD hdd) {
+    public Computer(String modelComp, double costComp) {
+        this.model = modelComp;
+        this.costComp = costComp;
+        //Motherboard motherboard1 = new Motherboard();
+       // HDD hdd1 = new HDD(this.model);
+        //RAM ram1 = new RAM();
+       // CPU cpu1 = new CPU();
+    }
+
+    public Computer(String modelComp, double costComp, Motherboard motherboard, HDD hdd, RAM ram, CPU cpu) {
         this.model = modelComp;
         this.costComp = costComp;
         Motherboard motherboard1 = new Motherboard();
