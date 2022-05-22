@@ -5,11 +5,11 @@ public class Motherboard {
     double cost;
 
 
-    {
+  /*  {
         model = "AMD";
         cost = 155.55d;
         form_factor = "mATX";
-    }
+    }*/
 
     public Motherboard() {
 

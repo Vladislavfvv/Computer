@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="Change Constructors - how print Computer0 with models???">
+    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="Change Constructors - how print Computer0 with models - problem">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CPU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Motherboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +69,9 @@
       <workItem from="1653036567136" duration="1001000" />
       <workItem from="1653075197677" duration="4592000" />
       <workItem from="1653149082972" duration="17362000" />
-      <workItem from="1653212067876" duration="7345000" />
+      <workItem from="1653212067876" duration="8116000" />
+      <workItem from="1653246622541" duration="1861000" />
+      <workItem from="1653252998409" duration="3909000" />
     </task>
     <task id="LOCAL-00001" summary="Change Constructor">
       <created>1653214554118</created>
@@ -87,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653219372132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change Constructors - how print Computer0 with models - problem">
+      <created>1653219705778</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653219705778</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +122,7 @@
     <MESSAGE value="Change Constructor" />
     <MESSAGE value="Change Constructor14.00" />
     <MESSAGE value="Change Constructors - how print Computer0 with models???" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Constructors - how print Computer0 with models???" />
+    <MESSAGE value="Change Constructors - how print Computer0 with models - problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Constructors - how print Computer0 with models - problem" />
   </component>
 </project>
