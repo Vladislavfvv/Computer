@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="Change Constructors - ADD CreditCard, ATM, Computer in package" />
+    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="ADD CreditCard, ATM, Computer in package">
+      <change afterPath="$PROJECT_DIR$/src/ATM/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATM/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATM/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ATM/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computer/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computer/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computer/HDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computer/Motherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Computer/RAM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreditCard/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +36,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Computer/Main.java" root0="FORCE_HIGHLIGHTING" />
@@ -96,7 +110,7 @@
       <workItem from="1653246622541" duration="1861000" />
       <workItem from="1653252998409" duration="6742000" />
       <workItem from="1653289471431" duration="4559000" />
-      <workItem from="1653333681573" duration="10791000" />
+      <workItem from="1653333681573" duration="11131000" />
     </task>
     <task id="LOCAL-00001" summary="Change Constructor">
       <created>1653214554118</created>
@@ -168,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653344267641</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ADD CreditCard, ATM, Computer in package">
+      <created>1653344662891</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653344662891</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +215,7 @@
     <MESSAGE value="Change Constructors - Fix info from internal constructor" />
     <MESSAGE value="Change Constructors - Last fix" />
     <MESSAGE value="Change Constructors - ADD CreditCard, ATM, Computer in package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Constructors - ADD CreditCard, ATM, Computer in package" />
+    <MESSAGE value="ADD CreditCard, ATM, Computer in package" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD CreditCard, ATM, Computer in package" />
   </component>
 </project>
