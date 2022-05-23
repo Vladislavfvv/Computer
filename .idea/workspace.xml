@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="Change Constructors - Print info from internal constructor">
+    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="Change Constructors - Fix info from internal constructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Motherboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RAM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,8 @@
       <workItem from="1653149082972" duration="17362000" />
       <workItem from="1653212067876" duration="8116000" />
       <workItem from="1653246622541" duration="1861000" />
-      <workItem from="1653252998409" duration="6588000" />
+      <workItem from="1653252998409" duration="6742000" />
+      <workItem from="1653289471431" duration="3087000" />
     </task>
     <task id="LOCAL-00001" summary="Change Constructor">
       <created>1653214554118</created>
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653257113709</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change Constructors - Fix info from internal constructor">
+      <created>1653259747764</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653259747764</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +139,7 @@
     <MESSAGE value="Change Constructors - how print Computer0 with models???" />
     <MESSAGE value="Change Constructors - how print Computer0 with models - problem" />
     <MESSAGE value="Change Constructors - Print info from internal constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Constructors - Print info from internal constructor" />
+    <MESSAGE value="Change Constructors - Fix info from internal constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Constructors - Fix info from internal constructor" />
   </component>
 </project>

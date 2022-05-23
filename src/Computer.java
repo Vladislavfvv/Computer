@@ -9,12 +9,20 @@ public class Computer {
 
 
 
-    public Computer(String modelComp, Motherboard motherboard, HDD hdd, RAM ram, CPU cpu, double costComp) {
+    /*public Computer(String modelComp, Motherboard motherboard, HDD hdd, RAM ram, CPU cpu, double costComp) {
         this.model = modelComp;
-        this.motherboard = new Motherboard();
-        this.hdd = new HDD();
-        this.ram = new RAM();
-        this.cpu = new CPU();
+        this.motherboard = new Motherboard("ASUS Prime H510M-K", "mATX", 300.25d);
+        this.hdd = new HDD("WD Blue 2TB WD20EZBX", 2000, "internal", 85.3d);
+        this.ram = new RAM("Kingston FURY Beast 2x8GB", 16, 95.7d);
+        this.cpu = new CPU("AMD Ryzen 5 5600X ", 175.25d);
+        this.costComp = costComp + this.motherboard.cost + this.hdd.cost + this.ram.cost + this.cpu.cost;
+    }*/
+    public Computer(String modelComp, double costComp) {
+        this.model = modelComp;
+        this.motherboard = new Motherboard("ASUS Prime H510M-K", "mATX", 300.25d);
+        this.hdd = new HDD("WD Blue 2TB WD20EZBX", 2000, "internal", 85.3d);
+        this.ram = new RAM("Kingston FURY Beast 2x8GB", 16, 95.7d);
+        this.cpu = new CPU("AMD Ryzen 5 5600X ", 175.25d);
         this.costComp = costComp + this.motherboard.cost + this.hdd.cost + this.ram.cost + this.cpu.cost;
     }
 
@@ -24,34 +32,22 @@ public class Computer {
         this.hdd = hdd;
         this.ram = ram;
         this.cpu = cpu;
+        this.costComp = costComp + this.motherboard.cost + this.hdd.cost + this.ram.cost + this.cpu.cost;
     }
 
-
-    public void setModelHDD(HDD hdd) {
-        this.hdd = hdd;
-    }
-
-
-    public double getCostComputer() {
+/*    public double getCostComputer() {
         double cost = motherboard.cost + cpu.cost + hdd.cost + ram.cost;
         return cost;
-    }
-
-    public void getinfoMotherboard1() {
-        System.out.println("Motherboard: " + this.motherboard.model);
-        //System.out.println("Form factor motherboard: " + this.form_factor);
-        System.out.println("Cost: " + this.motherboard.cost);
-    }
+    }*/
 
     public void getInfoComputer() {
         System.out.println("Компьютер: " + this.model);
-        if (this.costComp > 0)System.out.println("Стоимость: " + this.costComp);
-        else this.costComp = getCostComputer();
-        //System.out.println("Параметры:");
-        if (this.motherboard != null) {this.getinfoMotherboard1();}
-        if (this.cpu.model != null) System.out.println("CPU: " + this.cpu.model);
-        if (this.hdd.model != null) System.out.println("HDD " + this.hdd.model /*+ " \n type: " + this.hdd.type*/);
-        if (this.ram.model != null) System.out.println("RAM: " + this.ram.model);
+        System.out.println("Стоимость: " + this.costComp);
+        System.out.println("                 Параметры:");
+        if (this.motherboard != null) {this.motherboard.getinfoMotherboard();}
+        if (this.cpu != null) {this.cpu.getInfoCPU();}
+        if (this.hdd != null)  {this.hdd.getInfoHdd();}
+        if (this.ram != null)  {this.ram.getInfoRam();}
 
     }
 

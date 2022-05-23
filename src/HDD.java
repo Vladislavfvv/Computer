@@ -22,7 +22,7 @@ public class HDD {
 
 
     public void getInfoHdd(){
-        System.out.println("HDD options: ");
+        //System.out.println("HDD options: ");
         System.out.println("Model: " + this.model);
         System.out.println("Capacity of HDD: " + this.capacityofHdd);
         System.out.println("Type: " + this.type);
