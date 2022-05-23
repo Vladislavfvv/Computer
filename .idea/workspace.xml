@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="Change Constructors - Last fix">
-      <change beforePath="$PROJECT_DIR$/src/ATM/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATM/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="Change Constructors - ADD CreditCard, ATM, Computer in package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +15,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -91,7 +96,7 @@
       <workItem from="1653246622541" duration="1861000" />
       <workItem from="1653252998409" duration="6742000" />
       <workItem from="1653289471431" duration="4559000" />
-      <workItem from="1653333681573" duration="10364000" />
+      <workItem from="1653333681573" duration="10791000" />
     </task>
     <task id="LOCAL-00001" summary="Change Constructor">
       <created>1653214554118</created>
@@ -149,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653344077226</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Change Constructors - ADD CreditCard, ATM, Computer in package">
+      <created>1653344196615</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653344196615</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Change Constructors - ADD CreditCard, ATM, Computer in package">
+      <created>1653344267641</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653344267641</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +193,7 @@
     <MESSAGE value="Change Constructors - Print info from internal constructor" />
     <MESSAGE value="Change Constructors - Fix info from internal constructor" />
     <MESSAGE value="Change Constructors - Last fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Constructors - Last fix" />
+    <MESSAGE value="Change Constructors - ADD CreditCard, ATM, Computer in package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Constructors - ADD CreditCard, ATM, Computer in package" />
   </component>
 </project>
