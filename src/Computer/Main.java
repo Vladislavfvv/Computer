@@ -1,4 +1,4 @@
-import java.text.DecimalFormat;
+package Computer;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,13 +9,13 @@ public class Main {
 
         Computer comp1 = new Computer("Intel-100500",
                 new Motherboard("ASRock B660M Pro RSá", "mATX", 300.33d),
-                new HDD("Seagate Barracuda 2TB", 2000, "external HDD", 100.5d),
+                new HDD("Seagate Barracuda 2TB", 2000, "external Computer.HDD", 100.5d),
                 new RAM("Crucial Ballistix 2x8GB DDR4", 16, 50.3d),
                 new CPU("Intel Core i9-9900K", 200.5d));
 
         Computer comp2 = new Computer("Intel2022",
                 new Motherboard("ASRock B660M Pro RSá", "mATX", 300.33d),
-                new HDD("Seagate Barracuda 2TB", 2000, "external HDD", 100.5d),
+                new HDD("Seagate Barracuda 2TB", 2000, "external Computer.HDD", 100.5d),
                 new RAM("Crucial Ballistix 2x8GB DDR4", 16, 50.3d),
                 new CPU("Intel Core i9-9900K", 200.5d));
 

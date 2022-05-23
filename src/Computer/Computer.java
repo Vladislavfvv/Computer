@@ -1,3 +1,5 @@
+package Computer;
+
 public class Computer {
     String model;
     double costComp;
@@ -9,12 +11,12 @@ public class Computer {
 
 
 
-    /*public Computer(String modelComp, Motherboard motherboard, HDD hdd, RAM ram, CPU cpu, double costComp) {
+    /*public Computer.Computer(String modelComp, Computer.Motherboard motherboard, Computer.HDD hdd, Computer.RAM ram, Computer.CPU cpu, double costComp) {
         this.model = modelComp;
-        this.motherboard = new Motherboard("ASUS Prime H510M-K", "mATX", 300.25d);
-        this.hdd = new HDD("WD Blue 2TB WD20EZBX", 2000, "internal", 85.3d);
-        this.ram = new RAM("Kingston FURY Beast 2x8GB", 16, 95.7d);
-        this.cpu = new CPU("AMD Ryzen 5 5600X ", 175.25d);
+        this.motherboard = new Computer.Motherboard("ASUS Prime H510M-K", "mATX", 300.25d);
+        this.hdd = new Computer.HDD("WD Blue 2TB WD20EZBX", 2000, "internal", 85.3d);
+        this.ram = new Computer.RAM("Kingston FURY Beast 2x8GB", 16, 95.7d);
+        this.cpu = new Computer.CPU("AMD Ryzen 5 5600X ", 175.25d);
         this.costComp = costComp + this.motherboard.cost + this.hdd.cost + this.ram.cost + this.cpu.cost;
     }*/
     public Computer(String modelComp, double costComp) {

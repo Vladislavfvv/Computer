@@ -1,3 +1,5 @@
+package Computer;
+
 public class Motherboard {
     String model;
     String form_factor;
@@ -50,7 +52,7 @@ public class Motherboard {
     }
 
     public void getinfoMotherboard() {
-        System.out.println("Motherboard: " + this.model);
+        System.out.println("Computer.Motherboard: " + this.model);
         System.out.println("Form factor motherboard: " + this.form_factor);
         System.out.println("Cost: " + this.cost);
     }
