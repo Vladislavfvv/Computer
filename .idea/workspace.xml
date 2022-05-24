@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="ADD CreditCard, ATM, Computer in package">
-      <change afterPath="$PROJECT_DIR$/src/ATM/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ATM/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ATM/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ATM/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computer/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computer/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computer/HDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computer/Motherboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Computer/RAM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreditCard/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer/Motherboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +40,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Java Projects/github/My homework/HW6/Computer/Computer/src/CreditCard&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Java Projects/github/My homework/HW6/Computer/Computer/src/CreditCard",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ATM" />
@@ -67,7 +58,7 @@
       <recent name="E:\Java Projects\github\My homework\HW6\Computer\Computer\src\CreditCard" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Computer.Main">
     <configuration name="Computer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Computer.Main" />
       <module name="Computer" />
@@ -90,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Computer.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +101,8 @@
       <workItem from="1653246622541" duration="1861000" />
       <workItem from="1653252998409" duration="6742000" />
       <workItem from="1653289471431" duration="4559000" />
-      <workItem from="1653333681573" duration="11131000" />
+      <workItem from="1653333681573" duration="11257000" />
+      <workItem from="1653379385649" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Change Constructor">
       <created>1653214554118</created>
@@ -189,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653344662891</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ADD CreditCard, ATM, Computer in package">
+      <created>1653344987916</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653344987916</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
