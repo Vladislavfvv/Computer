@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="Fix get/set variables" />
+=======
+    <list default="true" id="742f9593-f144-48e0-ac72-93db345a39d2" name="Changes" comment="ADD CreditCard, ATM, Computer in package">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer/Motherboard.java" afterDir="false" />
+    </list>
+>>>>>>> origin/master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +44,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -44,8 +53,18 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Java Projects/github/My homework/HW6/Computer/Computer/src/CreditCard&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Java Projects/github/My homework/HW6/Computer/Computer/src/CreditCard",
+    "settings.editor.selected.configurable": "File.Encoding"
+>>>>>>> origin/master
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ATM" />
@@ -99,7 +118,10 @@
       <workItem from="1653289471431" duration="4559000" />
       <workItem from="1653333681573" duration="11257000" />
       <workItem from="1653379385649" duration="603000" />
+<<<<<<< HEAD
       <workItem from="1653380010088" duration="329000" />
+=======
+>>>>>>> origin/master
     </task>
     <task id="LOCAL-00001" summary="Change Constructor">
       <created>1653214554118</created>
@@ -185,6 +207,7 @@
       <option name="project" value="LOCAL" />
       <updated>1653344987916</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00013" summary="Fix get/set variables">
       <created>1653380227474</created>
       <option name="number" value="00013" />
@@ -193,6 +216,9 @@
       <updated>1653380227474</updated>
     </task>
     <option name="localTasksCounter" value="14" />
+=======
+    <option name="localTasksCounter" value="13" />
+>>>>>>> origin/master
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

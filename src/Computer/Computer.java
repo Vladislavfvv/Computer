@@ -37,16 +37,13 @@ public class Computer {
         this.costComp = costComp + this.motherboard.cost + this.hdd.cost + this.ram.cost + this.cpu.cost;
     }
 
-/*    public double getCostComputer() {
-        double cost = motherboard.cost + cpu.cost + hdd.cost + ram.cost;
-        return cost;
-    }*/
+
 
     public void getInfoComputer() {
         System.out.println("Компьютер: " + this.model);
         System.out.println("Стоимость: " + this.costComp);
         System.out.println("                 Параметры:");
-        if (this.motherboard != null) {this.motherboard.getinfoMotherboard();}
+        if (this.motherboard != null) {this.motherboard.printInfoMotherboard();}
         if (this.cpu != null) {this.cpu.getInfoCPU();}
         if (this.hdd != null)  {this.hdd.getInfoHdd();}
         if (this.ram != null)  {this.ram.getInfoRam();}
